@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    background-image: url(../img/Karkasnie_doma_otzivi_51.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.logo {
+    text-align: center;
+}
+.tel_email {
+    text-align: center;
+}
+.tel {
+    font-size: 34px;
+}
+.about_us {
+    font-style: italic;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+h2, h3 {
+    text-align: center;
+    color: white;
+}
+p {
+    color: white;
+    padding: 5px 15px;
+    margin: 0;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.ssylka {
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+}
+.main li {
+    font-size: 20px;
+    color: white;
+    list-style-type: none; 
+   }
+.pr_main li:before {
+    content: "\2714  ";
+}
+footer {
+    position: relative;
+    margin-top: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100px;
+}
+b {
+    color: white;
+}
+footer p, b, a {
+    font-size: 15px;
+}
+.contact {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
